@@ -4,8 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: Didot, serif;
-    font-weight: 100;
+    font-family: roboto;
 }
 
 
@@ -43,8 +42,9 @@ nav a:visited{
     color: black;
 }
 
-nav a:hover{
+nav>a:hover{
     border-bottom: 1px solid black;
+    transition-duration: 20s;
 }
 
 
@@ -58,7 +58,6 @@ main{
     align-items: center;
     justify-content: center;
     padding: 1em 4em;
-    font-size: 1.1em;
 
 }
 
